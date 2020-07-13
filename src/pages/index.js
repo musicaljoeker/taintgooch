@@ -42,7 +42,6 @@ const IndexPage = () => (
         </li>
       </ul>
     </p>
-    <p>That's just a basic list of the top of my head.</p>
   </Layout>
 )
 
