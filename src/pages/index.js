@@ -14,7 +14,7 @@ const IndexPage = () => (
       <source src={HappyBirthdaySong} />
     </audio>
     <p>Welcome to your birthday site! 🎉🥳</p>
-    <p>You might say to yourself. Why is this site named so funny? What does it mean to be a gooch and how taint am I? Well, there's one man who can tell you this and a whole lot more.</p>
+    <p>You might say to yourself. What does this website mean? What does it mean to be a gooch and how taint am I? Well, there's one man who can tell you this and a whole lot more.</p>
     <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
       <video width="100%" height="240" controls autoPlay loop>
         <source src={GoochMeme} type="video/mp4" />
