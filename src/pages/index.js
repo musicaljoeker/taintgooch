@@ -31,7 +31,7 @@ const IndexPage = () => (
           <img src={PBWhiskey} style={{maxHeight: `500px`}} />
         </li>
         <li>Dogs</li>
-        <li>Accent impersonations</li>
+        <li>Accent impersonations (probably offensive to some people tbh)</li>
         <li>Performing duck calls naked in front of his apartment windows (nature calls)</li>
         <li>Hat flips
           <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
@@ -42,6 +42,7 @@ const IndexPage = () => (
         </li>
       </ul>
     </p>
+    <p>That's just a basic list of the top of my head.</p>
   </Layout>
 )
 
@@ -51,6 +52,10 @@ window.onscroll = function(ev) {
     // you're at the bottom of the page
     console.log("setting background to ducks lol")
     document.querySelector("body").style.backgroundImage=`url(${DancingDucks})`;
+  } else{
+     // you're not at the bottom of the page
+     console.log("setting background to not ducks lol")
+     document.querySelector("body").style.backgroundImage='none';
   }
 }
 
