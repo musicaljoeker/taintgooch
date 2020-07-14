@@ -45,17 +45,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-// Ducks dancing when you reach the bottom haha
-window.onscroll = function(ev) {
-  if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
-    // you're at the bottom of the page
-    console.log("setting background to ducks lol")
-    document.querySelector("body").style.backgroundImage=`url(${DancingDucks})`;
-  } else{
-     // you're not at the bottom of the page
-     console.log("setting background to not ducks lol")
-     document.querySelector("body").style.backgroundImage='none';
-  }
-}
-
 export default IndexPage
