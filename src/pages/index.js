@@ -5,7 +5,7 @@ import HappyBirthdaySong from "../audio/happybirthday.mp3"
 import GoochMeme from "../images/gooch.mp4"
 import HatFlip from "../images/hat-flip.mp4"
 import PBWhiskey from "../images/pb_n_whiskey.jpg"
-import DancingDucks from "../images/duck-dance.gif"
+import Mustache from "../images/i-mustache-you-for-the-markers.mp4"
 
 const IndexPage = () => (
   <Layout>
@@ -42,6 +42,12 @@ const IndexPage = () => (
         </li>
       </ul>
     </p>
+    <p>Happy Birthday Billy! There truly is no one like you - in a good way...</p>
+    <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
+      <video width="100%" height="240" controls autoPlay loop>
+        <source src={Mustache} type="video/mp4" />
+      </video>
+    </div>
   </Layout>
 )
 
