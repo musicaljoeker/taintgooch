@@ -48,6 +48,7 @@ const IndexPage = () => (
         <source src={Mustache} type="video/mp4" />
       </video>
     </div>
+    <p>I'm happy to give you this coveted domain name for free!</p>
   </Layout>
 )
 
